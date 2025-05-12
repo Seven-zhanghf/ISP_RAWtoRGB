@@ -50,10 +50,10 @@ set(HEADERS
     src/ImageProcessor.h
 )
 # 测试NPU：rknn
-add_executable(isp ${SOURCES} ${HEADERS})
+add_executableISP_RAWtoRGB ${SOURCES} ${HEADERS})
 
 # 链接库
-target_link_libraries(isp
+target_link_libraries(ISP_RAWtoRGB
         ${RKNN_API_LIB_PATH}
         ${OpenCV_LIBS}
 )

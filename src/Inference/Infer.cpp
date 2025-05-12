@@ -3,12 +3,6 @@
 #include <chrono>
 #include <iostream>
 
-// // 假设 RKNN API 提供了以下辅助函数
-// extern void dump_tensor_attr(rknn_tensor_attr* attr);
-// extern const char* get_format_string(rknn_tensor_format fmt);
-// extern const char* get_type_string(rknn_tensor_type type);
-// extern const char* get_qnt_type_string(rknn_tensor_qnt_type qnt_type);
-
 /**
  * @brief 构造函数，初始化成员变量
  */
